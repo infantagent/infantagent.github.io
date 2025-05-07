@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="A multimodal agent that can interact with its own PC in a multimodal manner.">
+  <meta name="keywords" content="Paper, website">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Infant Agent</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+  <!-- Bin Lei, Weitai Kang, Zijian Zhang, Winson Chen, Mimi Xie, Mingyi Hong, 
+  Yan Yan, Caiwen Ding -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">InfantAgent-Next: A Highly Modular Generalist Agent for Automated Computer Interaction</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Bin Lei<sup>1</sup>,</span>
+            <span class="author-block">
+              Weitai Kang<sup>2</sup>,</span> 
+            <span class="author-block">
+              Zijian Zhang<sup>1</sup>,</span> 
+            <span class="author-block">
+              Winson Chen<sup>1</sup>,</span> 
+            <span class="author-block">
+              Mimi Xie<sup>3</sup>,</span> 
+            <span class="author-block">
+              Mingyi Hong<sup>1</sup>,</span> 
+            <span class="author-block">
+              Yan Yan<sup>2</sup>,</span> 
+            <span class="author-block">
+              Caiwen Ding<sup>1</sup></span> 
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Minnesota, Twin City</span>
+            <span class="author-block"><sup>2</sup>University of Illinois Chicago</span>
+            <span class="author-block"><sup>3</sup>The University of Texas at San Antonio</span>
+    
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/bin123apple/InfantAgent"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            You can add the abstract of your paper here!
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        
+        <h2 class="title is-3">Demo</h2>
+        <div class="publication-video">
+          <iframe src="static/videos/InfantAgent Video.mp4"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="software-examples">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">OS World Outputs</h2>
+    <div class="columns is-multiline is-centered">
+
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9">
+              <img src="./static/images/exmaples/vs_code.gif" alt="Software Example 1 Screenshot">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Visual Studio Code</p>
+                <p class="subtitle is-6">Powerful code editor with intelligent codecompletion, debugging, and Git integration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9">
+              <img src="./static/images/exmaples/chrome.gif" alt="Software Example 2 Screenshot">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Google Chrome</p>
+                <p class="subtitle is-6">Fast, secure web browser with developertools and extension support.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9">
+              <img src="./static/images/exmaples/gimp.gif" alt="Software Example 3 Screenshot">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">GNU Image Manipulation Program</p>
+                <p class="subtitle is-6">Free and open-source raster graphics editorfor image editing and retouching.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9">
+              <img src="./static/images/exmaples/libreoffice_writer.gif" alt="Software Example 4 Screenshot">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">LibreOffice Writer</p>
+                <p class="subtitle is-6">Brief description of Software D.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9">
+              <img src="./static/images/exmaples/libreoffice_impress.gif" alt="Software Example 4 Screenshot">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">LibreOffice Impress</p>
+                <p class="subtitle is-6">Brief description of Software D.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9">
+              <img src="./static/images/exmaples/libreoffice_calc.gif" alt="Software Example 4 Screenshot">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">LibreOffice Calc</p>
+                <p class="subtitle is-6">Brief description of Software D.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+<!-- <section class="hero is-light">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+          <div class="item item-video0 has-text-centered">
+            <h3 class="title is-3">Try it for yourself</h3>
+          </div>
+            <p style="text-align: center;">
+              Check the tutorial about how to start to build paper website for yourself:
+              <i class="fab fa-github"><a class="icon-link" href="https://github.com/bin123apple/InfantAgent" class="external-link"></a></i>
+              <a href="https://github.com/bin123apple/InfantAgent">Tutorial </a>
+            </p>
+            <br>
+              <center>
+                <code class="column is-three-fifths hero is-dark" style="text-align: left;">
+                  git clone https://github.com/TUM-AVS/paper-website-project.git<br>
+                  cd paper-website-project<br>
+                  etc.<br>
+                  <br>
+                  <br>
+                </code>
+                <br>
+                Other <a href="https://github.com/TUM-AVS/paper-website-project">code</a> instructions:
+                <code class="column is-three-fifths hero is-dark" style="text-align: left;">
+                  etc.<br>
+                </code>
+                <br>
+              </center>
+      </div>
+    </div>
+  </section> -->
+
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{lei2024infantagenttoolintegratedlogicdriven,
+      title={Infant Agent: A Tool-Integrated, Logic-Driven Agent with Cost-Effective API Usage}, 
+      author={Bin Lei and Yuchen Li and Yiming Zeng and Tao Ren and Yi Luo and Tianyu Shi and Zitian Gao and Zeyu Hu and Weitai Kang and Qiuwu Chen},
+      year={2024},
+      eprint={2411.01114},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2411.01114}, 
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://diamond-wm.github.io">
+          <i class="fas fa-home"></i>
+      </a>
+      <a class="icon-link"
+         href="https://arxiv.org/pdf/2405.12399">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/eloialonso/diamond" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <center><p>
+            This website (<a href="https://github.com/paper-website/paper-website.github.io">source code</a>) was adapted from the popular <a
+            href="https://nerfies.github.io">Nerfies</a> project page and is licensed under a <br><a rel="license"
+            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p></center>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
